@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
+import Collection from "./Collection"
 
 import hogs from "../porkers_data";
 
