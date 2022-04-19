@@ -1,7 +1,7 @@
 import React from "react";
 
 function Collection ({hogsToShow}) {
-console.log(hogsToShow)
+
 
   return (<div>
     
