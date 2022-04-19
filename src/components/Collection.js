@@ -1,6 +1,6 @@
 import React from "react";
 
-const Collection = ({hogsToShow}) => {
+function Collection ({hogsToShow}) {
 console.log(hogsToShow)
 
   return (<div>
@@ -10,4 +10,4 @@ console.log(hogsToShow)
     </div>)
 }
 
-export default App;
+export default Collection;
