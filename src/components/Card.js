@@ -1,15 +1,15 @@
 
-import React,  from "react";
+import React from "react";
 
 function Card({hog}){
 
 return(
   <div className="ui card eight wide column pigTile">
       <div className="image">
-        <img src={image} alt="hogPic" />
+        <img src={hog.image} alt="hogPic" />
       </div>
       <div className="content">
-        <h3 className="header">{name}</h3>
+        <h3 className="header">{hog.name}</h3>
       </div>
    </div>
 
